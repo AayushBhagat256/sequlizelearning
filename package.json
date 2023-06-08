@@ -1,0 +1,22 @@
+{
+  "name": "learning-period",
+  "version": "1.0.0",
+  "description": "This is a lerning period project for sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aayush Bhagat",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.3.3",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0"
+  }
+}
