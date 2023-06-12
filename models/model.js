@@ -3,9 +3,10 @@
 const { Sequelize, DataTypes, Model } = require('sequelize');
 
 
-const sequelize = new Sequelize('employeedb', 'root', 'Aayush@91103', {
+const sequelize = new Sequelize('employeedb', 'root', '', {
     host: 'localhost',
     dialect: 'mysql',
+    port:"3307",
     logging: false , //this will remove the console printing part
 });
 
